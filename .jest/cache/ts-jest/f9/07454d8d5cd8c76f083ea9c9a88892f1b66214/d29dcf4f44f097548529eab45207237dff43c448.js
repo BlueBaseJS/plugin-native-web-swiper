@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const tslib_1 = require("tslib");
+const plugin_native_web_swiper_1 = tslib_1.__importDefault(require("./components/plugin-native-web-swiper"));
+const core_1 = require("@bluebase/core");
+exports.default = core_1.createPlugin({
+    components: {
+        Swiper: plugin_native_web_swiper_1.default
+    },
+    description: 'swiper with native and web support',
+    key: '@bluebase/plugin-native-web-swiper',
+    name: 'plugin-native-web-swiper',
+    version: '1.0.0',
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJmaWxlIjoiL1VzZXJzL211aGFtbWFkZGFuaWFsaXFiYWwvRG9jdW1lbnRzL2JsdWVlYXN0L3BsdWdpbnMtYWQvcGx1Z2luLW5hdGl2ZS13ZWItc3dpcGVyL3NyYy9pbmRleC50c3giLCJtYXBwaW5ncyI6Ijs7O0FBQUEsNkdBQTJEO0FBQzNELHlDQUE4QztBQUU5QyxrQkFBZSxtQkFBWSxDQUFDO0lBQzNCLFVBQVUsRUFBQztRQUNWLE1BQU0sRUFBRSxrQ0FBTTtLQUNkO0lBQ0QsV0FBVyxFQUFFLG9DQUFvQztJQUNqRCxHQUFHLEVBQUUsb0NBQW9DO0lBQ3pDLElBQUksRUFBRSwwQkFBMEI7SUFDaEMsT0FBTyxFQUFFLE9BQU87Q0FDaEIsQ0FBQyxDQUFDIiwibmFtZXMiOltdLCJzb3VyY2VzIjpbIi9Vc2Vycy9tdWhhbW1hZGRhbmlhbGlxYmFsL0RvY3VtZW50cy9ibHVlZWFzdC9wbHVnaW5zLWFkL3BsdWdpbi1uYXRpdmUtd2ViLXN3aXBlci9zcmMvaW5kZXgudHN4Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBTd2lwZXIgZnJvbSAnLi9jb21wb25lbnRzL3BsdWdpbi1uYXRpdmUtd2ViLXN3aXBlcic7XG5pbXBvcnQgeyBjcmVhdGVQbHVnaW4gfSBmcm9tICdAYmx1ZWJhc2UvY29yZSc7XG5cbmV4cG9ydCBkZWZhdWx0IGNyZWF0ZVBsdWdpbih7XG5cdGNvbXBvbmVudHM6e1xuXHRcdFN3aXBlcjogU3dpcGVyXG5cdH0sXG5cdGRlc2NyaXB0aW9uOiAnc3dpcGVyIHdpdGggbmF0aXZlIGFuZCB3ZWIgc3VwcG9ydCcsXG5cdGtleTogJ0BibHVlYmFzZS9wbHVnaW4tbmF0aXZlLXdlYi1zd2lwZXInLFxuXHRuYW1lOiAncGx1Z2luLW5hdGl2ZS13ZWItc3dpcGVyJyxcblx0dmVyc2lvbjogJzEuMC4wJyxcbn0pO1xuIl0sInZlcnNpb24iOjN9

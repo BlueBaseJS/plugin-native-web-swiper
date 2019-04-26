@@ -1,0 +1,16 @@
+{
+	"extends": "@bluebase/code-standards/tsconfig",
+	"compilerOptions": {
+		"outDir": "dist",
+		"jsx": "react",
+		"rootDir": ".",
+		"typeRoots": ["node_modules/@types"],
+		"baseUrl": ".",
+		"paths": {
+			"*": ["typings/*"]
+		}
+	},
+	"include": ["src/**/*.ts", "src/index.tsx"],
+	"exclude": ["node_modules/**", "**/*.spec.ts", "**/*.test.ts", "**/*.stories.ts"],
+	"compileOnSave": false
+}

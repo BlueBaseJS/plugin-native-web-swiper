@@ -1,0 +1,45 @@
+3fb2ad53508f7d0f54bc5079be823e67
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+var _objectSpread2 = _interopRequireDefault(require("@babel/runtime/helpers/objectSpread"));
+
+var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/classCallCheck"));
+
+var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/createClass"));
+
+var _possibleConstructorReturn2 = _interopRequireDefault(require("@babel/runtime/helpers/possibleConstructorReturn"));
+
+var _getPrototypeOf2 = _interopRequireDefault(require("@babel/runtime/helpers/getPrototypeOf"));
+
+var _inherits2 = _interopRequireDefault(require("@babel/runtime/helpers/inherits"));
+
+var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/defineProperty"));
+
+var React = require('React');
+
+var ViewPropTypes = require('ViewPropTypes');
+
+var requireNativeComponent = require('requireNativeComponent');
+
+var RCTSafeAreaView = requireNativeComponent('RCTSafeAreaView');
+
+var SafeAreaView = function (_React$Component) {
+  (0, _inherits2.default)(SafeAreaView, _React$Component);
+
+  function SafeAreaView() {
+    (0, _classCallCheck2.default)(this, SafeAreaView);
+    return (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(SafeAreaView).apply(this, arguments));
+  }
+
+  (0, _createClass2.default)(SafeAreaView, [{
+    key: "render",
+    value: function render() {
+      return React.createElement(RCTSafeAreaView, this.props);
+    }
+  }]);
+  return SafeAreaView;
+}(React.Component);
+
+(0, _defineProperty2.default)(SafeAreaView, "propTypes", (0, _objectSpread2.default)({}, ViewPropTypes));
+module.exports = SafeAreaView;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIlNhZmVBcmVhVmlldy5pb3MuanMiXSwibmFtZXMiOlsiUmVhY3QiLCJyZXF1aXJlIiwiVmlld1Byb3BUeXBlcyIsInJlcXVpcmVOYXRpdmVDb21wb25lbnQiLCJSQ1RTYWZlQXJlYVZpZXciLCJTYWZlQXJlYVZpZXciLCJwcm9wcyIsIkNvbXBvbmVudCIsIm1vZHVsZSIsImV4cG9ydHMiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7QUFVQSxJQUFNQSxLQUFLLEdBQUdDLE9BQU8sQ0FBQyxPQUFELENBQXJCOztBQUNBLElBQU1DLGFBQWEsR0FBR0QsT0FBTyxDQUFDLGVBQUQsQ0FBN0I7O0FBQ0EsSUFBTUUsc0JBQXNCLEdBQUdGLE9BQU8sQ0FBQyx3QkFBRCxDQUF0Qzs7QUFJQSxJQUFNRyxlQUFlLEdBQUdELHNCQUFzQixDQUFDLGlCQUFELENBQTlDOztJQVlNRSxZOzs7Ozs7Ozs7OzZCQUtLO0FBQ1AsYUFBTyxvQkFBQyxlQUFELEVBQXFCLEtBQUtDLEtBQTFCLENBQVA7QUFDRDs7O0VBUHdCTixLQUFLLENBQUNPLFM7OzhCQUEzQkYsWSwrQ0FFQ0gsYTtBQVFQTSxNQUFNLENBQUNDLE9BQVAsR0FBaUJKLFlBQWpCIiwic291cmNlc0NvbnRlbnQiOlsiLyoqXG4gKiBDb3B5cmlnaHQgKGMpIDIwMTUtcHJlc2VudCwgRmFjZWJvb2ssIEluYy5cbiAqXG4gKiBUaGlzIHNvdXJjZSBjb2RlIGlzIGxpY2Vuc2VkIHVuZGVyIHRoZSBNSVQgbGljZW5zZSBmb3VuZCBpbiB0aGVcbiAqIExJQ0VOU0UgZmlsZSBpbiB0aGUgcm9vdCBkaXJlY3Rvcnkgb2YgdGhpcyBzb3VyY2UgdHJlZS5cbiAqXG4gKiBAZmxvd1xuICogQGZvcm1hdFxuICovXG5cbmNvbnN0IFJlYWN0ID0gcmVxdWlyZSgnUmVhY3QnKTtcbmNvbnN0IFZpZXdQcm9wVHlwZXMgPSByZXF1aXJlKCdWaWV3UHJvcFR5cGVzJyk7XG5jb25zdCByZXF1aXJlTmF0aXZlQ29tcG9uZW50ID0gcmVxdWlyZSgncmVxdWlyZU5hdGl2ZUNvbXBvbmVudCcpO1xuXG5pbXBvcnQgdHlwZSB7Vmlld1Byb3BzfSBmcm9tICdWaWV3UHJvcFR5cGVzJztcblxuY29uc3QgUkNUU2FmZUFyZWFWaWV3ID0gcmVxdWlyZU5hdGl2ZUNvbXBvbmVudCgnUkNUU2FmZUFyZWFWaWV3Jyk7XG5cbnR5cGUgUHJvcHMgPSBWaWV3UHJvcHMgJiB7XG4gIGNoaWxkcmVuOiBhbnksXG59O1xuXG4vKipcbiAqIFJlbmRlcnMgbmVzdGVkIGNvbnRlbnQgYW5kIGF1dG9tYXRpY2FsbHkgYXBwbGllcyBwYWRkaW5ncyByZWZsZWN0IHRoZSBwb3J0aW9uIG9mIHRoZSB2aWV3XG4gKiB0aGF0IGlzIG5vdCBjb3ZlcmVkIGJ5IG5hdmlnYXRpb24gYmFycywgdGFiIGJhcnMsIHRvb2xiYXJzLCBhbmQgb3RoZXIgYW5jZXN0b3Igdmlld3MuXG4gKiBNb3Jlb3ZlciwgYW5kIG1vc3QgaW1wb3J0YW50bHksIFNhZmUgQXJlYSdzIHBhZGRpbmdzIHJlZmxlY3QgcGh5c2ljYWwgbGltaXRhdGlvbiBvZiB0aGUgc2NyZWVuLFxuICogc3VjaCBhcyByb3VuZGVkIGNvcm5lcnMgb3IgY2FtZXJhIG5vdGNoZXMgKGFrYSBzZW5zb3IgaG91c2luZyBhcmVhIG9uIGlQaG9uZSBYKS5cbiAqL1xuY2xhc3MgU2FmZUFyZWFWaWV3IGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50PFByb3BzPiB7XG4gIHN0YXRpYyBwcm9wVHlwZXMgPSB7XG4gICAgLi4uVmlld1Byb3BUeXBlcyxcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIDxSQ1RTYWZlQXJlYVZpZXcgey4uLnRoaXMucHJvcHN9IC8+O1xuICB9XG59XG5cbm1vZHVsZS5leHBvcnRzID0gU2FmZUFyZWFWaWV3O1xuIl19
