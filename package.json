@@ -79,6 +79,7 @@
     "@bluebase/core": "^4.0.0-aplha.22",
     "deepmerge": "^3.2.0",
     "react-native": "^0.57.8",
+    "react-native-web-acute-swiper": "^1.0.5",
     "tslib": "^1.9.3"
   },
   "devDependencies": {

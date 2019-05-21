@@ -1,2 +1,2 @@
-import Swiper from './plugin-native-web-swiper';
+import Swiper from 'react-native-web-acute-swiper';
 export default Swiper;
