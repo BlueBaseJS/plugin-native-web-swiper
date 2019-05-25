@@ -5,6 +5,5 @@ test('Plugin should be correctly registered', async () => {
 	const BB = new BlueBase();
 	await BB.Plugins.register(Plugin);
 
-
 	expect(BB.Plugins.has('@bluebase/plugin-native-web-swiper')).toBeTruthy();
 });
