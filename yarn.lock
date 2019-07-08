@@ -9273,10 +9273,10 @@ react-native-typescript-transformer@^1.2.12:
     semver "^5.4.1"
     source-map "^0.5.6"
 
-react-native-web-acute-swiper@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.npmjs.org/react-native-web-acute-swiper/-/react-native-web-acute-swiper-1.0.5.tgz#c427750b34c822e6fe9c2431052212774a493345"
-  integrity sha512-yBLWxue2ci+H/wINjtCefkRxDORDrwZzxcSVxNxXOfdhIL17dc5fBgA31966lAp2tr97UWS/1VZApSkWga+ZGg==
+react-native-web-acute-swiper@1.0.7:
+  version "1.0.7"
+  resolved "http://benpm.mevris.io/react-native-web-acute-swiper/-/react-native-web-acute-swiper-1.0.7.tgz#da3a8eee22cad7fd01b185565115de91be1e98f8"
+  integrity sha512-wW+IE/YFCqsp+DY0trBqUCqxFpHGI5uy6ryazIzw2tbgkSRjgdk2fbn13LyTO70ec/eKYHN/mYFWqh3GD1YB5g==
   dependencies:
     "@babel/runtime" "^7.3.1"
     babel-plugin-module-resolver "^3.2.0"
