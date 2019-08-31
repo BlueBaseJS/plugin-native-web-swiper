@@ -829,14 +829,7 @@
     pirates "^4.0.0"
     source-map-support "^0.5.9"
 
-"@babel/runtime@^7.0.0":
-  version "7.4.3"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.4.3.tgz#79888e452034223ad9609187a0ad1fe0d2ad4bdc"
-  integrity sha512-9lsJwJLxDh/T3Q3SZszfWOTkk3pHbkmH+3KY+zwIDmsNlxsumuhS2TH3NIpktU4kNvfzy+k3eLT7aTJSPTo0OA==
-  dependencies:
-    regenerator-runtime "^0.13.2"
-
-"@babel/runtime@^7.3.1":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.3.1":
   version "7.4.4"
   resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.4.4.tgz#dc2e34982eb236803aa27a07fea6857af1b9171d"
   integrity sha512-w0+uT71b6Yi7i5SE0co4NioIpSYS6lLiXvCzWzGSKvpK5vdQtCbICHMj+gbAKAOtxiV6HsVh/MBdaF9EQ6faSg==
@@ -9274,9 +9267,9 @@ react-native-typescript-transformer@^1.2.12:
     source-map "^0.5.6"
 
 react-native-web-acute-swiper@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.npmjs.org/react-native-web-acute-swiper/-/react-native-web-acute-swiper-1.0.5.tgz#c427750b34c822e6fe9c2431052212774a493345"
-  integrity sha512-yBLWxue2ci+H/wINjtCefkRxDORDrwZzxcSVxNxXOfdhIL17dc5fBgA31966lAp2tr97UWS/1VZApSkWga+ZGg==
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/react-native-web-acute-swiper/-/react-native-web-acute-swiper-1.0.9.tgz#8a994c123e9c1ba1dd25e9ac60dd9baa16700b83"
+  integrity sha512-ZlmdSMzfaLbvhvqlRqdH+5nP1FRBrfVQRZyydJddrSLdQ9y+yGYB9ozLApJWCHkpttNvOMan98k8r+7Fw7U7gg==
   dependencies:
     "@babel/runtime" "^7.3.1"
     babel-plugin-module-resolver "^3.2.0"
